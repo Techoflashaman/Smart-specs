@@ -1,0 +1,214 @@
+{
+  "uuid": "06ac88835c8d374fcf8ad8ad0b12424a",
+  "path": "Offline/Smart%20spectacles%20for%20drowsiness",
+  "name": "Smart spectacles for drowsiness",
+  "content": "",
+  "created_at": "2022-01-13 00:30:45",
+  "updated_at": "2022-02-03 13:26:48",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "ed0c1aa2c6a34732c28b0e01a29ffa31",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "4fad30e8eaf8e2f2e1e36f36dd89c713",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "89bcd236037d4f69b9f89ffa4c8ee952": 1,
+        "0c7fde2be2084abcb25369ad50af8ca2": 1,
+        "7885fd902318470895c43bfb1e915706": 1,
+        "5cbe824183374fac8e4c1ae848199ce3": 4,
+        "e8ae4d0d71a94d5f8baf83319adf2050": 1,
+        "3a2c09d5fa954d8aa82fd82d9fddbab3": 1,
+        "bb009484ef804a24ac5d18c54b249586": 5,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "a7291ceaee5442a999df26c55c7e675d": 1,
+        "240fe4410a9c1d7d666f023cdce6303e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BUZZER.9032",
+          1,
+          "BUZ-SMD_2P-L10.5-W9.0-P10.50-R",
+          "BUZZER1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C9900002564",
+            "BOM_Manufacturer Part": "BUZZER.9032",
+            "puuid": "3e202a0ea0d947a29ecb943ec586314b",
+            "uuid": "0c7fde2be2084abcb25369ad50af8ca2"
+          }
+        ],
+        [
+          "0.1u",
+          2,
+          "C0603",
+          "C1,C2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "PT333-3B_C5134",
+          1,
+          "SENSOR-TH_PT333-3B",
+          "CGQ1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "EVERLIGHT",
+            "BOM_Manufacturer Part": "PT333-3B",
+            "BOM_Supplier Part": "C5134",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "12fb675101be4cc69584fc48e0013e2a",
+            "uuid": "e8ae4d0d71a94d5f8baf83319adf2050"
+          }
+        ],
+        [
+          "HDR-F-2.54_1x3",
+          1,
+          "HDR-F-2.54_1X3",
+          "H1",
+          {
+            "BOM_Supplier Part": "C146690",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "f83673d09e13450d934ca6be4be5af8f",
+            "uuid": "a7291ceaee5442a999df26c55c7e675d"
+          }
+        ],
+        [
+          "LED-0603_R",
+          4,
+          "LED0603_RED",
+          "LED1,LED2,LED3,LED6",
+          {
+            "BOM_Manufacturer": "EVERLIGHT(台湾亿光)",
+            "BOM_Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "BOM_Supplier Part": "C72044",
+            "BOM_Supplier": "LCSC",
+            "puuid": "1efb3a885b5b4aecb6d41221a8f4d86b",
+            "uuid": "5cbe824183374fac8e4c1ae848199ce3"
+          }
+        ],
+        [
+          "Motor Vibrator 3V FPCB",
+          1,
+          "MOTOR VIBRATOR 3V FPCB",
+          "M1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "C0827B020F",
+            "puuid": "c4b5c32e01564b828a1531aebaa5b221",
+            "uuid": "7885fd902318470895c43bfb1e915706"
+          }
+        ],
+        [
+          "1k",
+          5,
+          "R0603",
+          "R1,R2,R3,R5,R6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "Precision potentiometer 3296W/50ohm",
+          1,
+          "RES-ADJ-TH_3296W",
+          "R4",
+          {
+            "BOM_Supplier Part": "C21881",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Precision potentiometer 3296W/50ohm",
+            "puuid": "5e404972447a403ca43a83aeb15e254e",
+            "uuid": "240fe4410a9c1d7d666f023cdce6303e"
+          }
+        ],
+        [
+          "ARDUINO_MINI",
+          1,
+          "ARDUINO_MINI",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8c3f4375c87f4824bb644e90c38790a3",
+            "uuid": "89bcd236037d4f69b9f89ffa4c8ee952"
+          }
+        ],
+        [
+          "LM393EDR2G",
+          1,
+          "SOIC-8_L5.0-W4.0-P1.27-LS6.0-BL",
+          "U2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C152730",
+            "BOM_Manufacturer": "ON Semicon",
+            "BOM_Manufacturer Part": "LM393EDR2G",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "71450838f2174409b429143f6acc9d2a",
+            "uuid": "3a2c09d5fa954d8aa82fd82d9fddbab3"
+          }
+        ]
+      ],
+      "updateTime": 1643875008,
+      "createTime": 1642016107,
+      "histories": [],
+      "created_at": "2022-01-13 01:05:07",
+      "updated_at": "2022-02-03 13:26:48"
+    },
+    {
+      "uuid": "5a4d284317b3d642e54d97b4e10eeac1",
+      "puuid": "06ac88835c8d374fcf8ad8ad0b12424a",
+      "title": "PCB_Smart spectacles for drowsiness",
+      "filename": "PCB_Smart spectacles for drowsiness.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "3e202a0ea0d947a29ecb943ec586314b": 1,
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "12fb675101be4cc69584fc48e0013e2a": 1,
+        "f83673d09e13450d934ca6be4be5af8f": 1,
+        "1efb3a885b5b4aecb6d41221a8f4d86b": 4,
+        "c4b5c32e01564b828a1531aebaa5b221": 1,
+        "398691f1f785460098bbe5ee6590333c": 5,
+        "5e404972447a403ca43a83aeb15e254e": 1,
+        "8c3f4375c87f4824bb644e90c38790a3": 1,
+        "71450838f2174409b429143f6acc9d2a": 1
+      },
+      "BOM": [],
+      "updateTime": 1642055307,
+      "createTime": 1642055216,
+      "histories": [],
+      "created_at": "2022-01-13 11:56:56",
+      "updated_at": "2022-01-13 11:58:27"
+    }
+  ],
+  "sort": [],
+  "title": "Smart spectacles for drowsiness",
+  "foldername": "Smart spectacles for drowsiness",
+  "schfilename": "Smart spectacles for drowsiness.json",
+  "schfilemtime": 1643875009141
+}
